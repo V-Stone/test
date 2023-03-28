@@ -1,0 +1,151 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+}
+
+h1{
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: justify;
+}
+
+h3, span{
+    color: white;
+}
+
+.top_block{
+    display: flex;
+}
+
+.left-b{
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.b_first{
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;
+    background-color: rgba(61, 60, 60, 0.692);
+}
+
+button{
+    border: 0;
+    background-color: rgb(125, 86, 216);
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 18%;
+    left: 46%;
+    color: white;
+    font-size: 1em;
+}
+
+.b_second{
+    box-sizing: border-box;
+    display: flex;
+}
+
+.box_color_green, .box_color_yellow, .box_color_pink{
+    width: 33%;
+    height: 230px;
+    margin: 10px;
+    border-radius: 12px;
+}
+.box_color_green{
+    background-color:rgb(42, 223, 223) ;
+}
+.box_color_yellow{
+background-color: rgb(224, 194, 22);
+}
+.box_color_pink{
+float: right;
+background-color: rgb(245, 141, 158);
+}
+
+.seach_bar{
+    background-color: rgba(61, 60, 60, 0.692);
+    width: 100%;
+    height: 40px;
+    border-radius: 15px;
+
+}
+.seach_bar p{
+    color: white;
+}
+
+.under_search_bar{
+    box-sizing: border-box;
+    display: flex;
+}
+
+.image{
+    background-image: url(../img/dorrell-tibbs-GntSiIMHyVM-unsplash\ \(1\).jpg);
+    background-position: center;
+    justify-content: center;
+    background-size: cover;
+    height: 25vh;
+    width: 50%;
+    border-radius: 15px;
+}
+
+.formular{
+    width: 50%;
+}
+
+.bottom_block{
+    box-sizing: border-box;
+    display: flex;
+}
+
+.portfolio{
+    box-sizing: border-box;
+    display: flex;
+    width: 60%;
+}
+
+.img_first, .img_seconde, .img_third{
+    width: 33%;
+    height: 230px;
+    margin: 10px;
+    border-radius: 12px;
+}
+.img_first{
+    background-image: url(../img/dorrell-tibbs-GntSiIMHyVM-unsplash\ \(1\).jpg);
+    background-position: center;
+    justify-content: center;
+    background-size: cover;
+}
+.img_seconde{
+    background-image: url(../img/dorrell-tibbs-GntSiIMHyVM-unsplash\ \(1\).jpg);
+    background-position: center;
+    justify-content: center;
+    background-size: cover;
+}
+.img_third{
+    background-image: url(../img/dorrell-tibbs-GntSiIMHyVM-unsplash\ \(1\).jpg);
+    background-position: center;
+    justify-content: center;
+    background-size: cover;
+}
+
+.about{
+    background-color: rgba(61, 60, 60, 0.692);
+    height: 230px;
+    width: 38%;
+    border-radius: 15px;
+
+}
+
+span{
+    display: flex;
+}
